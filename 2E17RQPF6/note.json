@@ -1,0 +1,42 @@
+{
+  "paragraphs": [
+    {
+      "text": "$python",
+      "user": "admin",
+      "dateUpdated": "2018-12-31 13:17:35.307",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/python"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "jobName": "paragraph_1546280244774_-515542084",
+      "id": "20181231-131724_315238360",
+      "dateCreated": "2018-12-31 13:17:24.774",
+      "status": "READY",
+      "progressUpdateIntervalMs": 500
+    }
+  ],
+  "name": "AlokTestRemote",
+  "id": "2E17RQPF6",
+  "noteParams": {},
+  "noteForms": {},
+  "angularObjects": {
+    "python:shared_process": []
+  },
+  "config": {
+    "isZeppelinNotebookCronEnable": false
+  },
+  "info": {}
+}
