@@ -1,0 +1,68 @@
+{
+  "paragraphs": [
+    {
+      "text": "$python",
+      "user": "admin",
+      "dateUpdated": "2018-12-31 10:04:58.072",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/python"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "ERROR",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "org.apache.thrift.TApplicationException: Internal error processing createInterpreter\r\n\tat org.apache.thrift.TApplicationException.read(TApplicationException.java:111)\r\n\tat org.apache.thrift.TServiceClient.receiveBase(TServiceClient.java:71)\r\n\tat org.apache.zeppelin.interpreter.thrift.RemoteInterpreterService$Client.recv_createInterpreter(RemoteInterpreterService.java:209)\r\n\tat org.apache.zeppelin.interpreter.thrift.RemoteInterpreterService$Client.createInterpreter(RemoteInterpreterService.java:192)\r\n\tat org.apache.zeppelin.interpreter.remote.RemoteInterpreter$2.call(RemoteInterpreter.java:169)\r\n\tat org.apache.zeppelin.interpreter.remote.RemoteInterpreter$2.call(RemoteInterpreter.java:165)\r\n\tat org.apache.zeppelin.interpreter.remote.RemoteInterpreterProcess.callRemoteFunction(RemoteInterpreterProcess.java:135)\r\n\tat org.apache.zeppelin.interpreter.remote.RemoteInterpreter.internal_create(RemoteInterpreter.java:165)\r\n\tat org.apache.zeppelin.interpreter.remote.RemoteInterpreter.open(RemoteInterpreter.java:132)\r\n\tat org.apache.zeppelin.interpreter.remote.RemoteInterpreter.getFormType(RemoteInterpreter.java:299)\r\n\tat org.apache.zeppelin.notebook.Paragraph.jobRun(Paragraph.java:407)\r\n\tat org.apache.zeppelin.scheduler.Job.run(Job.java:188)\r\n\tat org.apache.zeppelin.scheduler.RemoteScheduler$JobRunner.run(RemoteScheduler.java:307)\r\n\tat java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)\r\n\tat java.util.concurrent.FutureTask.run(FutureTask.java:266)\r\n\tat java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)\r\n\tat java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)\r\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\r\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\r\n\tat java.lang.Thread.run(Thread.java:748)\r\n"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1546268673176_1608207016",
+      "id": "20181231-100433_409245344",
+      "dateCreated": "2018-12-31 10:04:33.176",
+      "dateStarted": "2018-12-31 10:04:58.118",
+      "dateFinished": "2018-12-31 10:05:00.742",
+      "status": "ERROR",
+      "errorMessage": "org.apache.thrift.TApplicationException: Internal error processing createInterpreter\r\n\tat org.apache.thrift.TApplicationException.read(TApplicationException.java:111)\r\n\tat org.apache.thrift.TServiceClient.receiveBase(TServiceClient.java:71)\r\n\tat org.apache.zeppelin.interpreter.thrift.RemoteInterpreterService$Client.recv_createInterpreter(RemoteInterpreterService.java:209)\r\n\tat org.apache.zeppelin.interpreter.thrift.RemoteInterpreterService$Client.createInterpreter(RemoteInterpreterService.java:192)\r\n\tat org.apache.zeppelin.interpreter.remote.RemoteInterpreter$2.call(RemoteInterpreter.java:169)\r\n\tat org.apache.zeppelin.interpreter.remote.RemoteInterpreter$2.call(RemoteInterpreter.java:165)\r\n\tat org.apache.zeppelin.interpreter.remote.RemoteInterpreterProcess.callRemoteFunction(RemoteInterpreterProcess.java:135)\r\n\tat org.apache.zeppelin.interpreter.remote.RemoteInterpreter.internal_create(RemoteInterpreter.java:165)\r\n\tat org.apache.zeppelin.interpreter.remote.RemoteInterpreter.open(RemoteInterpreter.java:132)\r\n\tat org.apache.zeppelin.interpreter.remote.RemoteInterpreter.getFormType(RemoteInterpreter.java:299)\r\n\tat org.apache.zeppelin.notebook.Paragraph.jobRun(Paragraph.java:407)\r\n\tat org.apache.zeppelin.scheduler.Job.run(Job.java:188)\r\n\tat org.apache.zeppelin.scheduler.RemoteScheduler$JobRunner.run(RemoteScheduler.java:307)\r\n\tat java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)\r\n\tat java.util.concurrent.FutureTask.run(FutureTask.java:266)\r\n\tat java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)\r\n\tat java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)\r\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\r\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\r\n\tat java.lang.Thread.run(Thread.java:748)\r\n",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "user": "admin",
+      "config": {},
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "jobName": "paragraph_1546268698081_1203675315",
+      "id": "20181231-100458_1963226738",
+      "dateCreated": "2018-12-31 10:04:58.082",
+      "status": "READY",
+      "progressUpdateIntervalMs": 500
+    }
+  ],
+  "name": "AlokTest1",
+  "id": "2E3122J8S",
+  "noteParams": {},
+  "noteForms": {},
+  "angularObjects": {
+    "python:shared_process": []
+  },
+  "config": {
+    "isZeppelinNotebookCronEnable": false
+  },
+  "info": {}
+}
